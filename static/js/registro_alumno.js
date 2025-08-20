@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    // Mostrar/ocultar contraseña
     const togglePassword = document.querySelector('#togglePassword');
     const password = document.querySelector('#password');
 
@@ -10,8 +9,6 @@ document.addEventListener('DOMContentLoaded', function () {
         this.classList.toggle('fa-eye-slash');
     });
 
-
-    // Validación del formulario
     const loginForm = document.getElementById('loginForm');
 
     loginForm.addEventListener('submit', function (e) {
@@ -26,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         window.location.href = 'inicio.html';
 
-        // Limpiar el formulario
         loginForm.reset();
     });
 });
