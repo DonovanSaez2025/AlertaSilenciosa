@@ -1,3 +1,3 @@
 function siguiente() {
-    window.location.href = "registro_alumno.html";
+    window.location.href = "/pages/registro_alumno.html";
 }
